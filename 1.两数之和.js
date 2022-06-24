@@ -48,7 +48,7 @@ var twoSum = function (nums, target) {
 		map.set(nums[i], i);
 	}
 };
-// const a = twoSum([3, 2, 4], 6);
-// console.log("a: ", a);
+const a = twoSum([3, 2, 4], 6);
+console.log("a: ", a);
 
 // @lc code=end

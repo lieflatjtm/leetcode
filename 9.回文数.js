@@ -20,7 +20,9 @@
  * @return {boolean} 数字翻转
  */
 var isPalindrome = function (x) {
+	// 10以下直接return false
 	if (x < 0 || (x % 10 == 0 && x != 0)) return false;
+	
 	let temp = 0,
 		s = x;
 	while (s) {
