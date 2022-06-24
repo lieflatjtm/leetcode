@@ -24,6 +24,5 @@
 	return newList[(len - 1) / 2];
 };
 
-// let count = findMedianSortedArrays([-1, -2], [3, 4]);
 // @lc code=end
 

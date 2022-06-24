@@ -35,19 +35,19 @@
 // };
 
 /*哈希表*/
-var twoSum = function (nums, target) {
-	let map = new Map();
-	for (let i = 0; i < nums.length; i++) {
-		/**目标数字 */
-		const x = target - nums[i];
-		/**查表 */
-		if (map.has(x)) {
-			return [map.get(x), i];
-		}
-		/**没有就把数字键值加进表中 */
-		map.set(nums[i], i);
-	}
-};
+// var twoSum = function (nums, target) {
+// 	let map = new Map();
+// 	for (let i = 0; i < nums.length; i++) {
+// 		/**目标数字 */
+// 		const x = target - nums[i];
+// 		/**查表 */
+// 		if (map.has(x)) {
+// 			return [map.get(x), i];
+// 		}
+// 		/**没有就把数字键值加进表中 */
+// 		map.set(nums[i], i);
+// 	}
+// };
 // const a = twoSum([3, 2, 4], 6);
 // console.log("a: ", a);
 
